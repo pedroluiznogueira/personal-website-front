@@ -8,6 +8,7 @@ import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontaweso
 import { faSquare, faCheckSquare, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faSquare as farSquare, faCheckSquare as farCheckSquare } from '@fortawesome/free-regular-svg-icons';
 import { faStackOverflow, faJava, faAngular,faGithub, faMedium, faLinkedin, faReact } from '@fortawesome/free-brands-svg-icons';
+import { YouTubePlayerModule } from '@angular/youtube-player';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +17,8 @@ import { faStackOverflow, faJava, faAngular,faGithub, faMedium, faLinkedin, faRe
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    YouTubePlayerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

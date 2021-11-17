@@ -5,16 +5,6 @@
     font-family: 'Arvo';
 }
 
-
-.three, .four {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    scroll-snap-align: start;
-}
-
 .one {
     height: 100vh;
     color: white;
@@ -125,6 +115,85 @@
     color: rgb(206, 168, 241);
 }
 
+.three {
+    height: 100vh;
+    color: rgb(0, 0, 0);
+    scroll-snap-align: start;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    height: 100px;
+    color: rgb(255, 255, 255);
+    font-size: 30px; 
+}
+
+.skills {
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 7px; 
+    text-align: justify;
+    color: white;
+}
+
+.visit {
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(206, 168, 241);
+    font-size: 7px;
+}
+
+.four {
+    height: 100vh;
+    color: rgb(0, 0, 0);
+    scroll-snap-align: start;
+}
+
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    height: 50px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.project:hover {
+    color: rgb(206, 168, 241);
+}
+
+.demo-text {
+    margin-top: 30px;
+    text-align: center;
+    color: #010409;
+    font-size: 10px;
+}
+
+.demo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    margin-top: 10px;
+}
+
+.btn {
+    margin: 10px;
+    font-size: 10px;
+}
+
+.btn button:hover {
+    margin: 10px;
+    font-size: 10px;
+    background-color: #272b31;
+}
+
 .container {
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
@@ -145,5 +214,5 @@
 }
 
 .four {
-    background-color: purple;
+    background-color: rgb(255, 255, 255);
 }

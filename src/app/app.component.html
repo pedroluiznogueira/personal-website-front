@@ -37,10 +37,52 @@
   </section>
 
   <section class="three">
-    <h1>Third Page</h1>
+    <div class="projects">
+      .skills()
+    </div>
+    <p class="skills">
+      I developed a large project in which I worked on the formation of a Development course
+Full Stack Web <span class="grad">(Java, Spring and Angular)</span>, where I gained experience in teamwork
+using an agile <span class="grad">Scrum</span> methodology and  <span class="grad">Git Flow</span> workflow for versioning.
+Design of an e-commerce system for courses, where we used <span class="grad">MySQL</span> in the development
+from the database, Java and Spring to the development of the REST API, where the main focuses
+were, prepare the system for a <span class="grad">Microservices</span> architecture and ensure the security of the
+Application with <span>Spring Security</span>. We used <span class="grad">AWS S3</span> to host and consume all types
+files, without having to persist them on the application server. I highlight the functionality of
+email validation powered by <span class="grad">Spring Mail</span> as well.
+Fully complete front-end application in <span class="grad">Angular</span>, where I gained experience in
+component styling, data and event manipulation and API consumption. I highlight the
+architecture of the protection system parts of the application through authentication
+done by API's in conjunction with Angular's <span class="grad">Routes and Guards</span> system.
+Finally, we implement communication between independent API's that communicate with the main API
+part of the system, with <span class="grad">microservices</span> and <span class="grad">Spring Cloud</span> techniques and finalization of the application
+aimed at deploying on cloud platforms.
+    </p>
+    <div class="visit">
+      Find out more about this project below
+    </div>
   </section>
 
   <section class="four">
-    <h1>Forfth Page</h1>
+    <div class="project" (click)="goToLink('https://udeyou.herokuapp.com/')">
+      .udeyou()
+    </div>
+    <div class="demo-text">
+      Application demo
+    </div>
+    <div class="demo">
+      <youtube-player 
+        videoId="EtEb40LE5zQ" 
+        suggestedQuality="highres" 
+        [height]="150" 
+        [width]="200" 
+        [startSeconds]="4"
+        [endSeconds]="8">
+      </youtube-player>
+    </div>
+    <div class="btns">
+      <button class="btn" (click)="goToLink('https://udeyou.herokuapp.com/')">.website()</button>
+      <button class="btn" (click)="goToLink('https://github.com/pedroluiznogueira/udeyou')">.repository()</button>
+    </div>
   </section>
 </div>
