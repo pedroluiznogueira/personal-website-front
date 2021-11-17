@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+.container-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 30px 0;
+}
+
+.fale-conosco-text {
+    font-family: 'Montserrat';
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.pedido {
+    margin-top: 40px;
+    width: 240px;
+    height: 140px;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 20px;
+}
+
+#btn-pedido{
+    border: #222;
+    color: #fff;
+    background-color: #222;
+}
+
+#btn-pedido:hover{
+    border: #111;
+    background-color: #111;
+    font-weight: 600;
+}
+
+form {
+    width: 500px;
+    height: 500px;
+    box-shadow: 0px 0px 2px #999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bloco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.bloco input, .bloco textarea {
+    width: 200px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.bloco label {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.bloco label:hover {
+    color: #8710D8;
+}
+
+.bloco textarea {
+    height: 100px;
+}
+
+mat-spinner {
+    margin-top: 10px;
+}

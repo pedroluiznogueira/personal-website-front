@@ -1,88 +1,17 @@
 <div class="container">
   <section class="one">
-    <div class="name">
-      Pedro Luiz
-    </div>
-    <div class="highlight">
-      Currently working as System Analist at Deloitte<br>
-    </div>
-    <div class="btns">
-      <button (click)="goToLink('https://udeyou.s3.sa-east-1.amazonaws.com/CurriculoPedroLuizPTBR.pdf')">.resumé()</button>
-    </div>
-    <div class="icons">
-      <fa-icon class="icon" [icon]="['fab', 'github']" (click)="goToLink('https://www.github.com/pedroluiznogueira')"></fa-icon>
-      <fa-icon class="icon" [icon]="['fab', 'linkedin']" (click)="goToLink('https://www.linkedin.com/in/pedroluiznogueira')"></fa-icon>
-      <fa-icon class="icon" [icon]="['fas', 'envelope']"></fa-icon>
-    </div>
+    <app-main></app-main>
   </section>
 
   <section class="two">
-    <div class="about">
-      .aboutme()
-    </div>
-    <p class="me">
-      Hi, <span class="grad">I'm Pedro</span>. I'm a software developer, seeking to learn and acquire experience in software development world. <span class="grad"> I'm currently graduating in two colleges, Computer Engineer (FEI) and Computer Science (FAM).</span> For the past few years I've been a huge intusiast of the whole Java/Spring ecosystem, I've been spending a lot of time studying software architecture, with focus on microservices.
-    </p>
-    <p class="me-aside">
-      Aside from coding, I'm passionate for social projects, I really look forward to helping other people who didn't have the same oppotunities that I had.
-    </p>
-    <div class="techs">
-      Currently <span class="grad">.mastering()</span>
-    </div>
-    <div class="icons">
-      <fa-icon class="icon" [icon]="['fab', 'react']"></fa-icon>
-      <fa-icon class="icon" [icon]="['fab', 'angular']"></fa-icon>
-      <fa-icon class="icon" [icon]="['fab', 'java']"></fa-icon>
-    </div>
+    <app-about></app-about>
   </section>
 
   <section class="three">
-    <div class="projects">
-      .skills()
-    </div>
-    <p class="skills">
-      I developed a large project in which I worked on the formation of a Development course
-Full Stack Web <span class="grad">(Java, Spring and Angular)</span>, where I gained experience in teamwork
-using an agile <span class="grad">Scrum</span> methodology and  <span class="grad">Git Flow</span> workflow for versioning.
-Design of an e-commerce system for courses, where we used <span class="grad">MySQL</span> in the development
-from the database, Java and Spring to the development of the REST API, where the main focuses
-were, prepare the system for a <span class="grad">Microservices</span> architecture and ensure the security of the
-Application with <span>Spring Security</span>. We used <span class="grad">AWS S3</span> to host and consume all types
-files, without having to persist them on the application server. I highlight the functionality of
-email validation powered by <span class="grad">Spring Mail</span> as well.
-Fully complete front-end application in <span class="grad">Angular</span>, where I gained experience in
-component styling, data and event manipulation and API consumption. I highlight the
-architecture of the protection system parts of the application through authentication
-done by API's in conjunction with Angular's <span class="grad">Routes and Guards</span> system.
-Finally, we implement communication between independent API's that communicate with the main API
-part of the system, with <span class="grad">microservices</span> and <span class="grad">Spring Cloud</span> techniques and finalization of the application
-aimed at deploying on cloud platforms.
-    </p>
-    <div class="visit">
-      Find out more about this project below
-    </div>
+    <app-skills></app-skills>
   </section>
 
   <section class="four">
-    <div class="project" (click)="goToLink('https://udeyou.herokuapp.com/')">
-      .udeyou()
-    </div>
-    <div class="demo-text">
-      Application demo
-    </div>
-    <div class="demo">
-      <youtube-player 
-        videoId="EtEb40LE5zQ" 
-        suggestedQuality="highres" 
-        [height]="150" 
-        [width]="200" 
-        [startSeconds]="4"
-        [endSeconds]="8">
-      </youtube-player>
-    </div>
-    <div class="btns">
-      <button class="btn" (click)="goToLink('https://udeyou.herokuapp.com/')">.website()</button>
-      <button class="btn" (click)="goToLink('https://github.com/pedroluiznogueira/udeyou')">.repository()</button>
-    </div>
+    <app-projects></app-projects>
   </section>
 </div>
