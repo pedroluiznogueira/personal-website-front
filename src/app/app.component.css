@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arvo';
+}
+
+
+.three, .four {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    scroll-snap-align: start;
+}
+
+.one {
+    height: 100vh;
+    color: white;
+    scroll-snap-align: start;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    height: 100px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.highlight {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: rgb(255, 255, 255);
+    font-size: 7px; 
+}
+
+.btns {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.btns button {
+    border: none;
+    border-radius: 15px;
+    height: 25px;
+    width: 80px;
+    cursor: pointer;
+    background-color: #0D1117;
+    color: white;
+}
+
+.btns button:hover {
+    color: rgb(206, 168, 241);
+    background-color: #161a20;
+}
+
+.icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.icon {
+    cursor: pointer;
+    width: 25px;
+}
+
+.icon:hover {
+    cursor: pointer;
+    width: 25px;
+}
+
+.two {
+    height: 100vh;
+    color: rgb(0, 0, 0);
+    scroll-snap-align: start;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    height: 100px;
+    color: rgb(0, 0, 0);
+    font-size: 30px; 
+}
+
+.me {
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 7px; 
+    text-align: justify;
+}
+
+.me-aside {
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 7px; 
+    text-align: center;
+    text-align: justify;
+}
+
+.techs {
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: center;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+.grad {
+    color: rgb(206, 168, 241);
+}
+
+.container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+
+.one {
+    background-color: #010409;
+}
+
+.two {
+    background-color: rgb(255, 255, 255);
+}
+
+.three {
+    background-color: #010409;
+}
+
+.four {
+    background-color: purple;
+}
