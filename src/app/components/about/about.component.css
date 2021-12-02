@@ -60,7 +60,8 @@
 
 .icon {
     cursor: pointer;
-    width: 25px;
+    width: 95px;
+    font-size: 90px;
 }
 
 .icon:hover {
@@ -81,14 +82,14 @@
 
     height: 100px;
     color: rgb(0, 0, 0);
-    font-size: 30px; 
+    font-size: 80px; 
 }
 
 .me {
     margin-top: 50px;
     margin-right: 50px;
     margin-left: 50px;
-    font-size: 7px; 
+    font-size: 21px; 
     text-align: justify;
 }
 
@@ -96,7 +97,7 @@
     margin-top: 10px;
     margin-right: 50px;
     margin-left: 50px;
-    font-size: 7px; 
+    font-size: 21px; 
     text-align: center;
     text-align: justify;
 }
@@ -108,7 +109,7 @@
     text-align: center;
     text-align: justify;
     color: rgb(0, 0, 0);
-    font-size: 15px;
+    font-size: 45px;
 }
 
 .grad {

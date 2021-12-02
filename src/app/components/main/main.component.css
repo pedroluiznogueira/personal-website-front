@@ -18,7 +18,7 @@
 
     height: 100px;
     color: rgb(255, 255, 255);
-    font-size: 30px;
+    font-size: 80px;
 }
 
 .highlight {
@@ -26,7 +26,7 @@
     justify-content: center;
     align-items: flex-end;
     color: rgb(255, 255, 255);
-    font-size: 7px; 
+    font-size: 21px; 
 }
 
 .btns {
@@ -38,12 +38,13 @@
 
 .btns button {
     border: none;
-    border-radius: 15px;
-    height: 25px;
-    width: 80px;
+    border-radius: 25px;
+    height: 55px;
+    width: 200px;
     cursor: pointer;
     background-color: #0D1117;
     color: white;
+    font-size: 30px;
 }
 
 .btns button:hover {
@@ -60,7 +61,8 @@
 
 .icon {
     cursor: pointer;
-    width: 25px;
+    width: 75px;
+    font-size: 60px;
 }
 
 .icon:hover {
@@ -81,14 +83,14 @@
 
     height: 100px;
     color: rgb(0, 0, 0);
-    font-size: 30px; 
+    font-size: 80px; 
 }
 
 .me {
     margin-top: 50px;
     margin-right: 50px;
     margin-left: 50px;
-    font-size: 7px; 
+    font-size: 21px; 
     text-align: justify;
 }
 
@@ -96,7 +98,7 @@
     margin-top: 10px;
     margin-right: 50px;
     margin-left: 50px;
-    font-size: 7px; 
+    font-size: 21px; 
     text-align: center;
     text-align: justify;
 }
@@ -108,7 +110,7 @@
     text-align: center;
     text-align: justify;
     color: rgb(0, 0, 0);
-    font-size: 15px;
+    font-size: 45px;
 }
 
 .grad {
@@ -128,7 +130,7 @@
 
     height: 100px;
     color: rgb(255, 255, 255);
-    font-size: 30px; 
+    font-size: 90px; 
 }
 
 .skills {
@@ -227,7 +229,7 @@
 
 .right p {
     margin-top: 65px;
-    font-size: 15px;
+    font-size: 37px;
 }
 
 .right form input,
@@ -235,13 +237,14 @@
 .right form label {
     margin-top: 5px;
     color:rgb(206, 168, 241);
+    font-size: 25px;
 }
 
 .right form input,
 .right form textarea {
     border: none;
     border-radius: 10px;
-    width: 150px;
+    width: 250px;
 }
 
 .right form {

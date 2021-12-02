@@ -128,14 +128,14 @@
 
     height: 100px;
     color: rgb(255, 255, 255);
-    font-size: 30px; 
+    font-size: 80px; 
 }
 
 .skills {
     margin-top: 10px;
     margin-right: 50px;
     margin-left: 50px;
-    font-size: 7px; 
+    font-size: 21px; 
     text-align: justify;
     color: white;
 }
@@ -144,7 +144,7 @@
     margin-top: 10px;
     text-align: center;
     color: rgb(206, 168, 241);
-    font-size: 7px;
+    font-size: 21px;
 }
 
 .four {
