@@ -1,20 +1,27 @@
-<div class="project" (click)="goToLink('https://udeyou.herokuapp.com/')">
-    .udeyou()
+<div class="sec">
+  <div class="side">
+    <app-sidebar></app-sidebar>
   </div>
-  <div class="demo-text">
-    Application demo
+  <div class="content">
+    <div class="project" (click)="goToLink('https://udeyou.herokuapp.com/')">
+      .udeyou()
+    </div>
+    <div class="demo-text">
+      Application demo
+    </div>
+    <div class="demo">
+      <youtube-player 
+        videoId="EtEb40LE5zQ" 
+        suggestedQuality="highres" 
+        [height]="150" 
+        [width]="200" 
+        [startSeconds]="4"
+        [endSeconds]="8">
+      </youtube-player>
+    </div>
+    <div class="btns">
+      <button class="btn" (click)="goToLink('https://udeyou.herokuapp.com/')">.website()</button>
+      <button class="btn" (click)="goToLink('https://github.com/pedroluiznogueira/udeyou')">.repository()</button>
+    </div>
   </div>
-  <div class="demo">
-    <youtube-player 
-      videoId="EtEb40LE5zQ" 
-      suggestedQuality="highres" 
-      [height]="150" 
-      [width]="200" 
-      [startSeconds]="4"
-      [endSeconds]="8">
-    </youtube-player>
-  </div>
-  <div class="btns">
-    <button class="btn" (click)="goToLink('https://udeyou.herokuapp.com/')">.website()</button>
-    <button class="btn" (click)="goToLink('https://github.com/pedroluiznogueira/udeyou')">.repository()</button>
-  </div>
+</div>

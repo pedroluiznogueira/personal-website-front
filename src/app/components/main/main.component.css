@@ -218,6 +218,7 @@
 }
 
 .content {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -257,4 +258,9 @@
     align-items: center;
     flex-direction: column;
     font-size: 10px;
+}
+
+.sec {
+    display: flex;
+    flex-direction: row;
 }

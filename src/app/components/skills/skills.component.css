@@ -216,3 +216,12 @@
 .four {
     background-color: rgb(255, 255, 255);
 }
+
+.sec {
+    display: flex;
+    flex-direction: row;
+}
+
+.side {
+    color: rgb(255, 255, 255);
+}

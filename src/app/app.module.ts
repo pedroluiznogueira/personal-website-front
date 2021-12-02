@@ -8,7 +8,6 @@ import { faSquare, faCheckSquare, faEnvelope } from '@fortawesome/free-solid-svg
 import { faSquare as farSquare, faCheckSquare as farCheckSquare } from '@fortawesome/free-regular-svg-icons';
 import { faStackOverflow, faJava, faAngular,faGithub, faMedium, faLinkedin, faReact } from '@fortawesome/free-brands-svg-icons';
 import { YouTubePlayerModule } from '@angular/youtube-player';
-import { ContactComponent } from './components/contact/contact.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { HomeComponent } from './components/layout/home/home.component';
@@ -16,15 +15,16 @@ import { MainComponent } from './components/main/main.component';
 import { AboutComponent } from './components/about/about.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ProjectsComponent } from './components/projects/projects.component';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
 @NgModule({
   declarations: [
     AppComponent,
-    ContactComponent,
     HomeComponent,
     MainComponent,
     AboutComponent,
     SkillsComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,
