@@ -198,6 +198,7 @@
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
     height: 100vh;
+    scroll-behavior: smooth;
 }
 
 
@@ -215,4 +216,41 @@
 
 .four {
     background-color: rgb(255, 255, 255);
+}
+
+.one, .two, .three, .four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.side-bar {
+    width: 34%;
+    display: flex;
+    justify-content: flex-start;
+    color: rgb(255, 255, 255);
+}
+
+.content {
+    width: 33%;
+}
+
+.ig {
+    width: 33%;
+}
+
+.side-bar-b {
+    width: 24%;
+    display: flex;
+    justify-content: flex-start;
+    color: rgb(255, 255, 255);
+}
+
+.content-b {
+    width: 52%;
+}
+
+.ig-b {
+    width: 24%;
 }
